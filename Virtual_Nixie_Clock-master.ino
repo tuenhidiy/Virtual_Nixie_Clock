@@ -183,7 +183,7 @@ int seconds = rawTime % 60;
   s1 = ((seconds/10));
   s0 = (seconds%10);
   
-  if (seconds>=0 && seconds<=30) // Show seconds from 0 ~ 30 in Small Nixie Number.
+  if (seconds>=0 && seconds<=30) // Show all digits when seconds is from 0 ~ 30 in Small Nixie Number.
     {   
       if (seconds==0)
       {
