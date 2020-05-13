@@ -29,7 +29,6 @@ void NixieNumbers::drawNumber(int x, int y, const uint16_t image[], int imageWid
 void NixieNumbers::clearNumber(int x, int y, int imageWidth, int imageHeight) {
 
   uint16_t * buffer = new uint16_t[imageWidth * imageHeight * 2];
-  //memcpy_P(buffer, image, NUMBER_HEIGHT*NUMBER_WIDTH*2);
   memset(buffer, 0, sizeof(buffer[0]) * imageWidth * imageHeight * 2);
 
   int counter = 0;
