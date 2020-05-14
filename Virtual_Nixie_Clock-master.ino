@@ -12,8 +12,8 @@
 #include <WiFi.h>
 #include <NTPClient.h>
 #include <WiFiUdp.h>
-const char* ssid     = "FTPTelecom";              // SSID of local network
-const char* password = "12345689";                // Password on network
+const char* ssid     = "FPTTelecom";              // SSID of local network
+const char* password = "12345678";                // Password on network
 #define NTP_OFFSET      25200                     // In seconds - Time offset
 #define NTP_INTERVAL    60 * 1000                 // In miliseconds
 #define NTP_ADDRESS     "1.asia.pool.ntp.org"
